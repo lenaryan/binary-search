@@ -3,8 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "search.js",
+  "directories": {
+    "test": "test"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -15,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/lenaryan/binary-search/issues"
   },
-  "homepage": "https://github.com/lenaryan/binary-search#readme"
+  "homepage": "https://github.com/lenaryan/binary-search#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4"
+  }
 }
