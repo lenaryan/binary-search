@@ -1,2 +1,6 @@
 const assert = require('chai').assert;
-const S = require('../app');
+var search = require('../search');
+
+describe('Binary search function testing', function() {
+
+})
