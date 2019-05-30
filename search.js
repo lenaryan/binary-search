@@ -1,7 +1,4 @@
-let arr = [1, 3, 5, 7, 8, 9, 15, 30, 34, 55];
-let num = 30;
-
-function Search(arr, num, leftIndex, rightIndex) {
+module.exports = (arr, num, leftIndex, rightIndex) => {
   let midIndex = 0;
   if (arr[leftIndex] == num) {
     return leftIndex;
@@ -23,5 +20,3 @@ function Search(arr, num, leftIndex, rightIndex) {
   }
   return -1;
 }
-
-module.exports = Search();
