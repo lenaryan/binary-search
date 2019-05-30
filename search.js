@@ -1,4 +1,6 @@
-module.exports = (arr, num, leftIndex, rightIndex) => {
+module.exports = (arr, num) => {
+  let leftIndex = arr[0];
+  let rightIndex = arr.length - 1;
   let midIndex = 0;
   if (arr[leftIndex] == num) {
     return leftIndex;
